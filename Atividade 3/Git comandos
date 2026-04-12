@@ -56,7 +56,7 @@ git rebase main
 
 1. Solte sua cabeça (Detach HEAD) 
 
-git checkout c4 
+git checkout C4 
 
   
 
@@ -70,9 +70,9 @@ git checkout HEAD^
 
 git checkout HEAD^ 
 
-git branch -f main c6 
+git branch -f main C6 
 
-git branch -f bugFix c0 
+git branch -f bugFix C0 
 
   
 
@@ -92,7 +92,7 @@ git revert pushed
 
 1. Introdução ao cherry-pick 
 
-git cherry-pick c3 c4 c7 
+git cherry-pick C3 C4 C7 
 
   
 
@@ -116,7 +116,7 @@ git rebase -i HEAD~4
 
 git rebase -i HEAD~3 
 
-git branch -f main c4' 
+git branch -f main C4' 
 
   
 
@@ -128,7 +128,7 @@ git commit --amend
 
 git rebase -i HEAD~2 
 
-git branch -f main c3'' 
+git branch -f main C3'' 
 
   
 
@@ -136,21 +136,21 @@ git branch -f main c3''
 
 git checkout main 
 
-git cherry-pick c2 
+git cherry-pick C2 
 
-git branch -f main c1 
+git branch -f main C1 
 
-git cherry-pick c2' c3 
+git cherry-pick C2' C3 
 
   
 
 4. Tags no Git 
 
-git tag v0 c1 
+git tag v0 C1 
 
-git tag v1 c2 
+git tag v1 C2 
 
-git checkout c2 
+git checkout C2 
 
   
 
@@ -194,13 +194,13 @@ git branch bugWork main~^2~
 
 git checkout one 
 
-git cherry-pick c4 c3 c2 
+git cherry-pick C4 C3 C2 
 
 git checkout two 
 
-git cherry-pick c5 c4 c3 c2 
+git cherry-pick C5 C4 C3 C2 
 
-git branch -f three c2 
+git branch -f three C2 
 
   
 
@@ -276,7 +276,7 @@ git push
 
 git reset o/main 
 
-git checkout -b feature c2 
+git checkout -b feature C2 
 
 git push 
 
@@ -350,9 +350,9 @@ git push origin foo:main
 
 6. Argumentos do fetch 
 
-git fetch origin c3:foo 
+git fetch origin C3:foo 
 
-git fetch origin c6:main 
+git fetch origin C6:main 
 
 git checkout foo 
 
@@ -370,6 +370,6 @@ git fetch origin :bar
 
 8. Argumentos do pull 
 
-git pull origin c3:foo 
+git pull origin C3:foo 
 
-git pull origin c2:side 
+git pull origin C2:side 
