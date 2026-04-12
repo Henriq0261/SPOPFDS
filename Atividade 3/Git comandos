@@ -1,0 +1,375 @@
+MAIN 
+
+  
+
+[Sequência introdutória] 
+
+1. Introdução aos commits no Git 
+
+git commit 
+
+git commit 
+
+  
+
+2. Branching no Git 
+
+git checkout -b bugFix 
+
+  
+
+3. Merge no Git 
+
+git checkout -b bugFix 
+
+git commit 
+
+git checkout main 
+
+git commit 
+
+git merge bugFix 
+
+  
+
+4. Introdução ao Rebase 
+
+git checkout -b bugFix 
+
+git commit 
+
+git checkout main 
+
+git commit 
+
+git checkout bugFix 
+
+git rebase main 
+
+  
+
+ 
+
+  
+
+[Acelerando] 
+
+1. Solte sua cabeça (Detach HEAD) 
+
+git checkout c4 
+
+  
+
+2. Referências relativas (^) 
+
+git checkout HEAD^ 
+
+  
+
+3. Referências relativas (~) 
+
+git checkout HEAD^ 
+
+git branch -f main c6 
+
+git branch -f bugFix c0 
+
+  
+
+4. Revertendo mudanças 
+
+git reset local^ 
+
+git checkout pushed 
+
+git revert pushed 
+
+  
+
+  
+
+[Movendo trabalho por aí] 
+
+1. Introdução ao cherry-pick 
+
+git cherry-pick c3 c4 c7 
+
+  
+
+2. Rebase interativo 
+
+git rebase -i HEAD~4 
+
+  
+
+  
+
+ 
+
+ 
+
+ 
+
+[Sortidos] 
+
+1. Pegando um único commit 
+
+git rebase -i HEAD~3 
+
+git branch -f main c4' 
+
+  
+
+2. Organizando commits 
+
+git rebase -i HEAD~2 
+
+git commit --amend 
+
+git rebase -i HEAD~2 
+
+git branch -f main c3'' 
+
+  
+
+3. Organizando commits #2 
+
+git checkout main 
+
+git cherry-pick c2 
+
+git branch -f main c1 
+
+git cherry-pick c2' c3 
+
+  
+
+4. Tags no Git 
+
+git tag v0 c1 
+
+git tag v1 c2 
+
+git checkout c2 
+
+  
+
+5. Git describe 
+
+git describe main 
+
+git describe side 
+
+git describe bugFix 
+
+  
+
+ 
+
+ 
+
+  
+
+[Temas avançados] 
+
+1. Rebases em cadeia 
+
+git rebase main bugFix 
+
+git rebase bugFix side 
+
+git rebase side another 
+
+git rebase another main 
+
+  
+
+2. Múltiplos pais 
+
+git branch bugWork main~^2~ 
+
+  
+
+3. Branch spaghetti 
+
+git checkout one 
+
+git cherry-pick c4 c3 c2 
+
+git checkout two 
+
+git cherry-pick c5 c4 c3 c2 
+
+git branch -f three c2 
+
+  
+
+REMOTE 
+
+  
+
+[Push & Pull — repositórios remotos no Git!] 
+
+1. Introdução à clonagem 
+
+git clone 
+
+  
+
+2. Branches remotas 
+
+git commit 
+
+git checkout o/main 
+
+git commit 
+
+  
+
+3. Fetch 
+
+git fetch 
+
+  
+
+4. Pull 
+
+git pull 
+
+  
+
+5. Trabalho em equipe (simulado) 
+
+git clone 
+
+git commit 
+
+git fakeTeamwork main 2 
+
+git pull 
+
+  
+
+6. Push 
+
+git commit 
+
+git commit 
+
+git push 
+
+  
+
+7. Histórico divergente 
+
+git clone 
+
+git commit 
+
+git pull --rebase 
+
+git push 
+
+  
+
+8. Main bloqueada 
+
+git reset o/main 
+
+git checkout -b feature c2 
+
+git push 
+
+  
+
+---------------------------------------- 
+
+  
+
+[Até a origin e além — remotos avançados] 
+
+1. Push main 
+
+git fetch 
+
+git rebase o/main side1 
+
+git rebase side1 side2 
+
+git rebase side2 side3 
+
+git rebase side3 main 
+
+git push 
+
+  
+
+2. Merge com remotos 
+
+git checkout main 
+
+git pull origin main 
+
+git merge side1 
+
+git merge side2 
+
+git merge side3 
+
+git push origin main 
+
+  
+
+3. Rastreamento remoto 
+
+git checkout -b side o/main 
+
+git commit 
+
+git pull --rebase 
+
+git push 
+
+  
+
+4. Argumentos do push 
+
+git push origin main 
+
+git push origin foo 
+
+  
+
+5. Push avançado 
+
+git push origin main^:foo 
+
+git push origin foo:main 
+
+  
+
+6. Argumentos do fetch 
+
+git fetch origin c3:foo 
+
+git fetch origin c6:main 
+
+git checkout foo 
+
+git merge main 
+
+  
+
+7. Deletar branch remota 
+
+git push origin :foo 
+
+git fetch origin :bar 
+
+  
+
+8. Argumentos do pull 
+
+git pull origin c3:foo 
+
+git pull origin c2:side 
