@@ -1,0 +1,45 @@
+Principais extensões do VSCode para o
+desenvolvimento Web
+
+1. Live Server
+O Live Server é uma extensão fantástica que permite que você crie um servidor de
+desenvolvimento local com recarregamento em tempo real. Ela permite que você
+visualize suas alterações de HTML, CSS e JavaScript em tempo real, evitando o
+incômodo de atualizar manualmente o navegador.
+2. Auto Rename Tag
+O Auto Rename Tag é uma extensão útil que renomeia automaticamente as tags
+HTML ou XML quando você modifica a tag de abertura ou fechamento. Isso
+economiza tempo e garante a consistência quando você trabalha com linguagens de
+marcação.
+3. SVG Preview
+O SVG Preview é uma extensão útil para desenvolvedores da web que trabalham
+com SVG (Scalable Vector Graphics, gráficos vetoriais escaláveis). Ela fornece uma
+visualização em tempo real de arquivos SVG diretamente no editor, permitindo que
+você veja as alterações feitas em tempo real.
+4. HTML CSS Support
+A extensão HTML CSS Support oferece suporte aprimorado ao CSS em arquivos
+HTML. Ela oferece sugestões inteligentes e preenchimento automático de
+propriedades CSS, garantindo uma codificação mais rápida e precisa.
+5. IntelliSense for CSS class names
+Quando você trabalha com nomes complexos de classes CSS em HTML, lembrar e
+digitá-los com precisão pode ser um desafio. A extensão IntelliSense for CSS class
+names oferece sugestões inteligentes e preenchimento automático de nomes de
+classes CSS. Ela analisa seus arquivos CSS e fornece uma lista de nomes de
+classes disponíveis, facilitando a seleção do nome de classe apropriado sem erros
+de digitação ou de digitação.
+
+6. CSS Peek
+O CSS Peek é uma extensão avançada que aprimora o desenvolvimento de CSS,
+permitindo que você examine os estilos CSS associados diretamente do código
+HTML ou JavaScript. Com um simples passar do mouse sobre uma classe CSS ou
+ID, o CSS Peek revela os estilos correspondentes em uma janela, eliminando a
+
+necessidade de alternar entre arquivos. O CSS Peek é fundamental quando você
+trabalha com grandes bases de código ou dependências intrincadas de CSS.
+7. GitLens
+O GitLens é uma extensão avançada que integra os recursos do Git diretamente ao
+seu editor. Com o GitLens, você pode explorar a autoria do código, revisar o
+histórico de commits e obter informações valiosas sobre alterações de código com
+anotações de culpa linha a linha.
+
+Fonte: https://kinsta.com/pt/blog/extensoes-vscode-extensions/#1-live-server

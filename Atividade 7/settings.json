@@ -1,0 +1,21 @@
+{
+    "editor.fontSize": 16,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.cursorBlinking": "smooth",
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    "workbench.colorTheme": "Default Dark Modern",
+
+    "terminal.integrated.fontSize": 15,
+
+    "editor.renderWhitespace": "selection",
+    "editor.bracketPairColorization.enabled": true,
+
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false
+}
