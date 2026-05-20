@@ -1,0 +1,117 @@
+Projeto Escolhido: Visual Studio Code (VS Code) 
+
+Parte 1 — Identificação 
+
+1. Qual é o nome do projeto escolhido e qual problema ele resolve? 
+
+O projeto escolhido foi o Visual Studio Code (VS Code), desenvolvido pela Microsoft. O VS Code é um editor de código-fonte gratuito e de código aberto utilizado para desenvolvimento de softwares em diversas linguagens de programação. 
+
+O principal problema que o projeto resolve é facilitar o desenvolvimento de programas, oferecendo um ambiente moderno e personalizável para programadores. O VS Code possui recursos como destaque de sintaxe, integração com Git e suporte a extensões. 
+
+Repositório oficial: https://github.com/microsoft/vscode 
+
+2. Qual linguagem de programação principal é utilizada? 
+
+A principal linguagem utilizada no projeto é TypeScript. O projeto também utiliza JavaScript, CSS e outras tecnologias web. 
+
+3. Quantas estrelas (stars) e forks o repositório possui? O que esses números indicam? 
+
+O repositório do VS Code possui mais de 175 mil estrelas e cerca de 34 mil forks no GitHub no momento da pesquisa. 
+
+As estrelas indicam a popularidade e o interesse da comunidade no projeto. Já os forks representam quantas pessoas copiaram o repositório para modificar, estudar ou contribuir com o projeto. 
+
+Parte 2 — Aspectos Jurídicos 
+
+4. Qual licença o projeto usa? 
+
+O VS Code utiliza a licença MIT License. 
+
+5. Essa licença é copyleft ou permissiva? Justifique. 
+
+A licença MIT é considerada uma licença permissiva. 
+
+Ela é chamada assim porque permite utilizar, modificar e distribuir o software com poucas restrições. Diferente das licenças copyleft, a MIT não obriga que versões modificadas utilizem a mesma licença. 
+
+6. O que a licença permite e o que ela proíbe? 
+
+A licença MIT permite: 
+
+Utilizar o software para qualquer finalidade; 
+
+Modificar o código-fonte; 
+
+Distribuir cópias do software; 
+
+Utilizar partes do código em projetos privados ou comerciais. 
+
+A principal restrição da licença é que o aviso de copyright e a licença original devem ser mantidos nas cópias do software. 
+
+Além disso, a licença informa que os autores não se responsabilizam por possíveis danos causados pelo uso do programa. 
+
+Parte 3 — Contribuição 
+
+7. Existe um arquivo CONTRIBUTING.md no repositório? 
+
+Sim. O repositório possui um arquivo CONTRIBUTING.md com orientações para contribuições. 
+
+Três requisitos apresentados no documento são: 
+
+O colaborador deve seguir os padrões de código definidos pelo projeto; 
+
+É necessário executar testes antes de enviar alterações; 
+
+Os Pull Requests devem possuir descrição clara explicando as mudanças realizadas. 
+
+8. Quantas issues abertas o projeto possui com a tag “good first issue”? 
+
+O projeto possui aproximadamente 200 issues abertas marcadas como “good first issue”, voltadas para iniciantes em projetos open source. 
+
+Link utilizado na busca: 
+
+https://github.com/microsoft/vscode/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22 
+
+9. Existe um CODE_OF_CONDUCT.md? Qual comportamento ele proíbe explicitamente? 
+
+Sim. O projeto possui um arquivo CODE_OF_CONDUCT.md. 
+
+O documento proíbe comportamentos ofensivos, assédio, discriminação e ataques pessoais. 
+
+10. Escolha de uma issue “good first issue” 
+
+Uma issue marcada como “good first issue” analisada no repositório envolve problemas relacionados ao terminal integrado do VS Code. 
+
+O problema relatado descreve um comportamento incorreto do scroll do mouse no terminal do editor. 
+
+Para resolver a issue, seria necessário identificar qual componente do terminal está tratando os eventos de rolagem, analisar o trecho do código responsável pelo comportamento incorreto e modificar a lógica para que o scroll funcione adequadamente. 
+
+Depois da correção, seria necessário executar testes para verificar se o problema foi resolvido. 
+
+Além disso, o desenvolvedor precisaria seguir os padrões de contribuição definidos pelo projeto antes de abrir um Pull Request. 
+
+Parte 4 — Reflexão 
+
+11. Por que o projeto escolheu essa licença específica? 
+
+Na minha opinião, o VS Code provavelmente utiliza a licença MIT porque ela facilita a adoção do software por empresas, estudantes e desenvolvedores independentes. 
+
+Como a licença é permissiva, ela permite que o código seja utilizado em projetos comerciais e modificações privadas sem muitas restrições. Isso aumenta a popularidade do projeto e incentiva contribuições da comunidade. 
+
+Para os usuários, a principal vantagem é a liberdade de utilizar e modificar o software. Para o projeto, a vantagem é ampliar a comunidade e facilitar a integração com outras tecnologias. 
+
+12. Se eu fosse contribuir com esse projeto, qual seria o primeiro passo prático? 
+
+O primeiro passo seria estudar a documentação oficial do projeto e configurar corretamente o ambiente de desenvolvimento. 
+
+Depois disso, seria importante analisar as issues marcadas como “good first issue”, entender o funcionamento do código relacionado e interagir com a comunidade antes de começar qualquer alteração. 
+
+Referências 
+
+Repositório oficial do VS Code: https://github.com/microsoft/vscode 
+
+Arquivo CONTRIBUTING.md: https://github.com/microsoft/vscode/blob/main/CONTRIBUTING.md 
+
+Arquivo CODE_OF_CONDUCT.md: https://github.com/microsoft/vscode/blob/main/CODE_OF_CONDUCT.md 
+
+Licença MIT: https://choosealicense.com/licenses/mit/ 
+
+Issues “good first issue”: https://github.com/microsoft/vscode/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22 
